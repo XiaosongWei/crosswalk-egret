@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/xiaosong/AndroidStudioProjects/EgretRuntimeLauncher/app/src/main/jniLibs"><file name="armeabi/libegretsdk.so" path="/home/xiaosong/AndroidStudioProjects/EgretRuntimeLauncher/app/src/main/jniLibs/armeabi/libegretsdk.so"/></source></dataSet><dataSet config="debug"><source path="/home/xiaosong/AndroidStudioProjects/EgretRuntimeLauncher/app/src/debug/jniLibs"/></dataSet></merger>

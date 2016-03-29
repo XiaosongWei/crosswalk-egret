@@ -1,0 +1,44 @@
+<html>
+
+<body>
+</body>
+
+<script src="http://api.egret-labs.org/games/www/static/egreth5sdk.js"></script>
+
+<script type="text/javascript">
+    console.log("launcher login EgretH5Sdk start");    
+    var egretH5SdkCallback = function (data) {
+
+    var id = "";
+    var token = "";
+    var name = "";
+    var pic = "";
+        
+    if (typeof(data.id) == "undefined") {        
+    }else {
+        id = data.id;
+    }
+    if (typeof(data.token) == "undefined") {
+        
+    }else {
+        token = data.token;
+    }
+    if (typeof(data.name) == "undefined") {
+        name = '""';
+    }else {
+        name = data.name;
+    }
+    if (typeof(data.pic) == "undefined") {
+        pic = '""';
+    }else {
+        pic = data.pic;
+    }
+           
+        var ret = '{"data":{' + "result:" + '0' + ",id:" + id + ",token:" + token + ",name:" + name + ",pic:" + pic + '}}';
+            
+        window.egret_webview_context.jsCallJava(ret);
+    };
+    EgretH5Sdk.login(egretH5SdkCallback, null);
+
+</script>
+</html>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/xiaosong/AndroidStudioProjects/EgretRuntimeLauncher/app/build/intermediates/res/merged/debug/drawable-v21/button_borderless_compat.xml",
+        "source": "/home/xiaosong/AndroidStudioProjects/EgretRuntimeLauncher/app/build/intermediates/exploded-aar/EgretRuntimeLauncher/crosswalkwebview18484779arm/unspecified/res/drawable-v21/button_borderless_compat.xml"
+    },
+    {
+        "merged": "/home/xiaosong/AndroidStudioProjects/EgretRuntimeLauncher/app/build/intermediates/res/merged/debug/drawable-v21/button_compat.xml",
+        "source": "/home/xiaosong/AndroidStudioProjects/EgretRuntimeLauncher/app/build/intermediates/exploded-aar/EgretRuntimeLauncher/crosswalkwebview18484779arm/unspecified/res/drawable-v21/button_compat.xml"
+    }
+]
